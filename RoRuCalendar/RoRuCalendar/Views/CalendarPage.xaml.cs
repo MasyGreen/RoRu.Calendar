@@ -59,6 +59,8 @@ namespace RoRuCalendar.Views
                         curhtml = curhtml.Replace("/ воскресенье</div>", "/ Вс</div>");
 
                         newhtml += $"<tr valign=\"top\">{curhtml}</tr>\n";
+
+
                     }
                 }
 
