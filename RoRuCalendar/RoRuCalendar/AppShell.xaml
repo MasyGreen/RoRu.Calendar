@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:views="clr-namespace:RoRuCalendar.Views"
+       x:Class="RoRuCalendar.AppShell">
+    <!-- Display a bottom tab bar containing two tabs -->
+    <TabBar>
+        <ShellContent Title="Notes"
+                      Icon="icon_feed.png"
+                      ContentTemplate="{DataTemplate views:CalendarPage}" />
+    </TabBar>
+</Shell>    
